@@ -16,7 +16,7 @@ $form = new contactform(array(
   </div>
   <?php else: ?>
 
-<section id="contactform">
+<section class="form-wrap" id="contactform">
   <form action="" method="post">
     <fieldset>
     
@@ -26,26 +26,22 @@ $form = new contactform(array(
       <div class="contactform-alert">The form could not be submitted. Please fill in all fields correctly.</div>
       <?php endif ?>
   
-      <div class="contactform-field<?php if($form->isError('name')) echo ' error' ?>">
         <label class="contactform-label" for="contactform-name">Name <?php if($form->isRequired('name')) echo '' ?> 
           <?php if($form->isError('name')): ?>
               <small>Please enter a name</small>
           <?php endif ?>
         </label>
-        <input class="contactform-input" type="text" id="contactform-name" name="name" value="<?php echo $form->htmlValue('name') ?>" />
-      </div>
+        <input class="contactform-input full" type="text" id="contactform-name" name="name" value="<?php echo $form->htmlValue('name') ?>" placeholder="name"/>
   
-      <div class="contactform-field<?php if($form->isError('email')) echo ' error' ?>">
         <label class="contactform-label" for="contactform-email">Email address <?php if($form->isRequired('email')) echo '' ?> <?php if($form->isError('email')): ?><small>Please enter a valid email address</small><?php endif ?></label>
-        <input class="contactform-input" type="text" id="contactform-email" name="email" value="<?php echo $form->htmlValue('email') ?>" />
-      </div>
+        <input class="contactform-input half" type="text" placeholder="email" id="contactform-email" name="email" value="<?php echo $form->htmlValue('email') ?>" />
+        <input class="contactform-input half" type="text" placeholder="phone number" id="contactform-email" name="telephone" value="" />
   
-      <div class="contactform-field<?php if($form->isError('text')) echo ' error' ?>">
         <label class="contactform-label" for="contactform-text">Message <?php if($form->isRequired('text')) echo '' ?> <?php if($form->isError('text')): ?><small>Please enter your text</small><?php endif ?></label>
-        <textarea class="contactform-input" name="text" id="contactform-text"><?php echo $form->htmlValue('text') ?></textarea>
-      </div>
+        <textarea class="contactform-input" name="text" id="contactform-text" ><?php echo $form->htmlValue('text') ?></textarea>
         
-      <input class="contactform-button" type="submit" name="submit" value="Send" id="send"/>
+        <input class="contactform-button" type="submit" name="submit" value="Send" id="send"/>
+        <p>If you prefer, you can <a href="mailto:lucas.fayolle@orange.fr?subject=We have an internship for you!" style="color:#fff;">email me</a>.</p>
     
     </fieldset>
   </form>

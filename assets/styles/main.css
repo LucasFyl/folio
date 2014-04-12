@@ -205,6 +205,7 @@ div#bar2 {-webkit-transform:rotate(180deg);-moz-transform:rotate(180deg)}
 #contact h2:after {bottom: -23px;}
 #contact p {margin-top: 60px; width: auto;}
 #contact .form-wrap {width: 90%;display: block;margin: 20px auto 0;position: relative;}
+#contact .form-wrap label {display: none; }
 #contact .form-wrap input,#contact .form-wrap textarea {box-sizing:border-box; -moz-box-sizing: border-box;outline:none; -webkit-transition: all .25s easeOut;-moz-transition: all .25s easeOut;-ms-transition: all .25s easeOut;-o-transition: all .25s easeOut;transition: all .25s easeOut;font-family: 'AvenirNextLTPro-Medium', sans-serif; color: white; padding-left: 1.5em; }
 #contact .form-wrap input[type="text"]{height: 40px;background: transparent; border: none; border-bottom: 1px solid white;width: 100%; margin: 30px auto;}
 #contact .form-wrap input[name="telephone"] {float:right;}
