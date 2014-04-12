@@ -41,7 +41,35 @@
                 </ul>
             </div>
         </div>
-    
+        <div class="hidden">
+            <script type="text/javascript">
+                <!--//--><![CDATA[//><!--
+                    var images = new Array()
+                    function preload() {
+                        for (i = 0; i < preload.arguments.length; i++) {
+                            images[i] = new Image()
+                            images[i].src = preload.arguments[i]
+                        }
+                    }
+                    preload(
+                        "http://lucasfayolle.com/projects/01-streetart/01-preview.jpg",
+                        "http://lucasfayolle.com/projects/01-streetart/02-previewnb.jpg",
+                        "http://lucasfayolle.com/projects/02-paris_ville_lumiere/01-preview.jpg",
+                        "http://lucasfayolle.com/projects/02-paris_ville_lumiere/02-previewnb.jpg",
+                        "http://lucasfayolle.com/projects/03-begreen/01-preview.jpg",
+                        "http://lucasfayolle.com/projects/03-begreen/02-previewnb.jpg",
+                        "http://lucasfayolle.com/projects/04-la_bagarre/01-preview.jpg",
+                        "http://lucasfayolle.com/projects/04-la_bagarre/02-previewnb.jpg",
+                        "http://lucasfayolle.com/projects/05-detroit_memories/01-preview.jpg",
+                        "http://lucasfayolle.com/projects/05-detroit_memories/02-previewnb.jpg",
+                        "http://lucasfayolle.com/projects/06-la_femme/01-preview.jpg",
+                        "http://lucasfayolle.com/projects/06-la_femme/02-previewnb.jpg",
+                        "http://lucasfayolle.com/projects/07-un_noel_desenchante/01-preview.jpg",
+                        "http://lucasfayolle.com/projects/07-un_noel_desenchante/02-previewnb.jpg",
+                    )
+                //--><!]]>
+            </script>
+        </div>
         <div id="work" class="view">
             <ul id="gallery">
                 <?php foreach($pages->find('projects')->children()->visible() as $wo): ?>
