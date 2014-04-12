@@ -1,0 +1,26 @@
+Title: Paris, ville lumière
+----
+Tag1: UX/Interaction Design,
+---- 
+Tag2: Ajax/jQuery.
+----
+Role: UX/Interaction design, Ajax/jQuery.
+----
+Cat: School project.
+----
+Year: 2013
+----
+About: For this project we had two weeks to conceive a digital experience around the theme of light. We decided to use the light at the same time as a subject and as a mean. We offer to the user a walk into Paris by night, without any light. The website uses node.js, socket.io and Leap Motion technology to let the user navigate through various screens where he could learn about lightning in Paris.  
+----
+Coworker1: Louis Serre
+----
+Coworker2: Louis Haltier
+----
+Coworker3: Louis Devineau
+----
+Coworker4: Lucas Guarneri
+----
+Coworker5: Lucas Martinez
+----
+link: http://parisvillelumiere.herokuapp.com/
+----

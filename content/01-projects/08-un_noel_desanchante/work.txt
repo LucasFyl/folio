@@ -1,0 +1,24 @@
+Title: Un Noël désenchanté
+----
+Tag1: Illustration,
+---- 
+Tag2: Graphic Design.
+----
+Role: Illustration, graphic design.
+---- 
+Cat: School project.
+----
+Year: 2012
+----
+About: « A Disenchanted Christmas » is a school project made in 2012. 
+We had one week to realize an interactive advent calendar, built on flash and developed in Action Script 3. Every day of december before christmas, a new ‘gift’ was available. 
+I was in charge of conceiving a graphic chart and realizing the graphic design of all the elements in three states : Before they where clicked, when they were supposed to be clicked and when they had been clicked.
+----
+Coworker1: Valentin Beunard
+----
+Coworker2: Laure Boutmy
+----
+Coworker3: Rémy Dragin
+----
+Coworker4: Louis Serre
+----

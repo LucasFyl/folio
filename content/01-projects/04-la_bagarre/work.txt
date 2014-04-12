@@ -1,0 +1,23 @@
+Title: La Bagarre
+----
+Tag1: UX design,
+---- 
+Tag2: javascript/jQuery.
+----
+Role: UX / Interaction design, jQuery.
+---- 
+Cat: School project.
+----
+Year: 2014
+----
+About: Labagarre.fr is a social platform for amateur or professionnal fighters. 
+From boxing to kung-fu, it’s the ideal place to find an appropriate fighter to train yourself, chat with a coach, find a welcoming club or even regional tournements and gatherings! The original goal was to create a web application using flatfree, a lightweight php framework. I was in charge of some UI design, integration and all the interaction design
+----
+Coworker1: Robin Aït-El-Alim Noguier
+----
+Coworker2: Quentin Geiger
+----
+Coworker3: Victor Glokowski
+----
+link: http://lucasfayolle.com/old/labagarre
+----

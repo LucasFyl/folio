@@ -1,0 +1,26 @@
+Title: Detroit Memories
+----
+Tag1: UX / Interaction design,
+---- 
+Tag2: Integration/jQuery.
+----
+Role: UX / Interaction design, jQuery.
+---- 
+Cat: School project.
+----
+Year: 2012
+----
+About: The aim of this project was to create an interactive web-documentary about the subject of our choice. We choose to speak about the american city of Detroit. 
+Back then in 2012, while the city was already in bankrupt for a long time, mainstream medias haven’t yet said much about it. 
+We decided to talk about Detroit according to three main focus: social, economical, and cultural. To do so, we have divided the history of the city according to five large periods of time. Therefore the user can navigate through theses five time scale or through the three focus independently of one another.  
+----
+Coworker1: Benoit Lafond
+----
+Coworker2: Romain Barbier
+----
+Coworker3: Louis Serre
+----
+Coworker4: Antoine Papi
+----
+link: http://lucasfayolle.com/old/detroit
+----

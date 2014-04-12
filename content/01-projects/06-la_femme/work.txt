@@ -1,0 +1,19 @@
+Title: La Femme
+----
+Tag1: Conception,
+---- 
+Tag2: Front-end Development.
+----
+Role: Conception, front-end development.
+---- 
+Cat: Professional project.
+----
+Year: 2012
+----
+About: For this project, I had a few days to conceive and built a temporary website for the emerging french band, La Femme.
+This website was built using HTML 5 and the background is a loop video. It is also cross-browser compatible and responsive for tablets and smartphones.
+----
+Coworker1: No coworker for this project. 
+----
+link: http://lafemmemusic.com
+----

@@ -1,0 +1,24 @@
+Title: Begreen
+----
+Tag1: Mobile Design,
+---- 
+Tag2: 
+----
+Role: Conception / Mobile design.
+---- 
+Cat: Professionnal project.
+----
+Year: 2013
+----
+About: Begreen is the result of an actual call for tender by the association FING (Next Generation Internet Foundation). The goal was to create an app which aims to help anyone taking a better care of the environment. Using FING’s databases we conceived an app which will measure your carbone dioxide emissions and help you manage it, or reduce it, with hints and tips. We decided to gamify the experience with rewards and badges when you succeed in decreasing your carbone emissions.  
+----
+Coworker1: Pierre Burgy
+----
+Coworker2: Hugo Mingoia
+----
+Coworker3: Samuel Renaut
+----
+Coworker4: Thibaut Heanlin
+----
+link: http://mesinfos.fing.org/begreen-vivons-mieux-vivons-sains/
+----

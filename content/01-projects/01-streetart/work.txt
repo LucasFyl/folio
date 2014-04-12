@@ -1,0 +1,25 @@
+Title: Worldwide Writers
+----
+Tag1: UX / Interaction Design,
+---- 
+Tag2: APIs / jQuery.
+----
+Role: UX / Interaction design, APIs / jQuery.
+----
+Cat: School project.
+----
+Year: 2013
+----
+About: Worldwide Writers is a web platform for writers all over the world. Around 4 main cities (Berlin, Paris, London and New-York) the aim of the website is to get in touch with people sharing a passion for painting. The website lists events in your city and gives the user the ability to create an event and share it with anyone on Facebook. 
+One of the goal of this project was to use Facebook and Youtube Apis.   
+----
+Coworker1: Robin Aït-El-Alim Noguier
+----
+Coworker2: Benoit Lafond
+----
+Coworker3: Audrey Chauprade
+----
+Coworker4: Martin Debray
+----
+link: http://lucasfayolle.com/old/streetart
+----
