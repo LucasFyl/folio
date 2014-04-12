@@ -149,6 +149,7 @@ div#bar2 {-webkit-transform:rotate(180deg);-moz-transform:rotate(180deg)}
 #sidebar.solid #dotstyle li a {background-color: white;}
 #sidebar .filter-wrap select {opacity:0;display:none;outline: none;border: none;background: transparent;box-shadow: none;-webkit-appearance: none;padding: 1em 1.25em;color: white;font-size: 1em;border: 2px solid white;border-radius: 0;text-transform: uppercase;display: block;margin: 90px 0 0 30px; cursor: pointer;width: 240px;background: url(../images/chevron_down.png) no-repeat center right;}
 #sidebar .filter-wrap select#category {margin-top: 30px;}
+#sidebar .filter-wrap select option {font-family: 'AvenirNextLTPro-Regular', sans-serif; font-size: 1em; line-height:1.231em; color: white;}
 
 #work {position: relative;overflow-x:scroll;background-color: black;float: right;}
 #work ul {width: 100%;height: 100%;margin: 0;padding: 0;position: absolute;top: 0;left: 0;width: 2100px;z-index: 7;margin-left: 80px;}
@@ -206,9 +207,7 @@ div#bar2 {-webkit-transform:rotate(180deg);-moz-transform:rotate(180deg)}
 #contact .form-wrap label {display: none; }
 #contact .form-wrap input,#contact .form-wrap textarea {box-sizing:border-box; -moz-box-sizing: border-box;outline:none; -webkit-transition: all .25s easeOut;-moz-transition: all .25s easeOut;-ms-transition: all .25s easeOut;-o-transition: all .25s easeOut;transition: all .25s easeOut;font-family: 'AvenirNextLTPro-Medium', sans-serif; color: white; padding-left: 1.5em; }
 #contact .form-wrap input[type="text"]{height: 40px;background: transparent; border: none; border-bottom: 1px solid white;width: 100%; margin: 30px auto;}
-#contact .form-wrap input[name="telephone"] {float:right;}
-#contact .form-wrap input[name="email"] {float:left;}
-#contact .form-wrap input[name="name"] {clear:both;}
+#contact .form-wrap input[name="telephone"] {float:right;} #contact .form-wrap input[name="email"] {float:left;} #contact .form-wrap input[name="name"] {clear:both;}
 #contact .form-wrap input[name="email"], #contact .form-wrap input[name="telephone"] {width: 48%;display: inline-block;vertical-align: baseline;margin-top: 0;}
 #contact .form-wrap textarea {width: 100%;line-height: 1.5;height: 100px; background: transparent; border:none; border: 1px solid white; margin: 30px auto; padding-top: 15px; }
 #contact .form-wrap input:focus, #contact .form-wrap textarea:focus {border: 2px solid white;box-shadow: none;} 
