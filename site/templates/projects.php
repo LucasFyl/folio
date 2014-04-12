@@ -74,19 +74,19 @@
         </div>
 
         <div id="contact" class="hidden">
+            
             <div class="contact-wrap">
                 <h2>get in touch</h2>
-                <p class="class">Please do not hesitate to contact me for anything. </br>I am currently available for free-lance work and looking for an internship abroad from July to October.</p></div>
+                <p class="class">Please do not hesitate to contact me for anything. </br>I am currently available for free-lance work and looking for an internship abroad from July to October.</p>
+            </div>
+            
             <div id="read-more">
                 <a href="#" class="read-more"><i class="icon-chevron_up"></i> </a>
-                <div class="form-wrap">
-                    <input class="contactform-input full" type="text" id="contactform-name" name="name" value="" placeholder="name"/>
-                    <input class="contactform-input half" type="text" id="contactform-email" name="email" value="" placeholder="e-mail"/>
-                    <input class="contactform-input half" type="text" id="contactform-phone" name="telephone" value="" placeholder="phone number"/>
-                    <textarea class="contactform-input" name="text" id="contactform-text" placeholder="Hi Lucas,"></textarea>
-                    <input class="contactform-button" type="submit" name="submit" value="Send" id="send" />
-                </div>
+
+                <?php snippet('contactform'); ?>
+
             </div>
+            
         </div>
 
     <?php echo js('assets/js/vendor/modernizr-2.6.2.min.js') ?>
