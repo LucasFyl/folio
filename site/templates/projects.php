@@ -98,19 +98,8 @@
     <?php echo js('assets/js/scripts/greensock/EasePack.min.js') ?>
     <?php echo js('assets/js/scripts/greensock/CSSPlugin.min.js') ?>
     <?php echo js('assets/js/scripts/jquery.mousewheel.js') ?>
-    <?php echo js('assets/js/scripts/dots.js') ?>
     <?php echo js('assets/js/vendor/navigation.js') ?>
     <?php echo js('assets/js/main.js') ?>
-
-    <script>
-        [].slice.call( document.querySelectorAll( '#dotstyle > ul' ) ).forEach( function( nav ) {
-            new DotNav( nav, {
-                callback : function( idx ) {
-                    //console.log( idx )
-                }
-            } );
-        } );
-    </script>
 
     <script>
         $(document).ready(function(){   

@@ -72,6 +72,7 @@ navigation.init({
 
 
 function wichNav() {
+	$(this).parent('li').addClass('current');
 	var view = $('body').find('.view'),
 		leaving = view.attr('id'),
 		destination = $(this).attr('data'); 
