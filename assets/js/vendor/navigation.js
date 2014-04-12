@@ -88,14 +88,14 @@ var navigation = {
 
 		showWork.add( TweenLite.set('#work', {display:'block',opacity:0}) );
 		showWork.add( TweenLite.set(['#work ul li'], {opacity:0,transform:"translateX(50px)"}) );
-		showWork.add( TweenLite.set('#work #gallery', {transform:"translateX(0px)"}) );
+		//showWork.add( TweenLite.set('#work #gallery', {transform:"translateX(0px)"}) );
 		showWork.to('#about, #contact', 0, {display:"none"})
 				.to('#work', 0, {className:"+=view",display:'block'})
 		   	    .to('#sidebar', 0, {className:"+=solid"})
 		   	    .to('#work', 0.5, {opacity:1,ease:Power3.easeIn})
 		   	    //.to('#dotstyle li:nth-child(2)', 0, {className:"+=current"})
 		   	    .staggerTo('#work ul li', 0.5, {opacity:1,ease:Power2.easeOut,transform:"translateX(0px)"}, 0.15, "+=0.25")
-		   	    .to('#work #gallery', 0.35, {transform:"translateX(80px)",ease:Power3.easeOut}, "-=1")
+		   	    //.to('#work #gallery', 0.35, {transform:"translateX(80px)",ease:Power3.easeOut}, "-=1")
 		   	    .to('#sidebar', 0.35, {left:0,ease:Power3.easeOut}, "-=1.27");
 		showWork.play();
 	},
