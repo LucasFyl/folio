@@ -22,7 +22,7 @@
             <h2>thank you!</h2>
             <p><strong>Your message has been sent</strong>, I will get back to you shortly.</p>
 
-            <a href="http://lucasfayolle.com/#about" class="backhome">back home</a>
+            <a href="http://lucasfayolle.com/" class="backhome">back home</a>
         </div>
     </body>
 
