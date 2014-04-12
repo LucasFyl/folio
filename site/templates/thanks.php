@@ -18,10 +18,11 @@
     </head>
     
     <body> 
-        <h1>HELLO WORLD!</h1>
+        <div id="contact" style="margin-top:150px;">
+            <h2>thank you!</h2>
+            <p><strong>Your message has been sent</strong>, I will get back to you shortly.</p>
 
-        <div id="contactform">
-            <h2>fuck you contact form</h2>
+            <a href="http://lucasfayolle.com/#about" class="backhome">back home</a>
         </div>
     </body>
 

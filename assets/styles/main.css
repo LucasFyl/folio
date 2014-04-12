@@ -217,6 +217,8 @@ div#bar2 {-webkit-transform:rotate(180deg);-moz-transform:rotate(180deg)}
 #contact .form-wrap #send {position: absolute;right: 0; bottom:114px; font-family:'AvenirNextLTPro-Medium', sans-serif; font-size: 1.077em;letter-spacing:1px;color: white;text-transform: uppercase;text-align: center; color: white;border:1px solid white;margin: 0;background: black;padding: 1em 2em;z-index: 999;display: block;cursor: pointer;}
 #contact .form-wrap #send:hover {background: white;color: black;font-family:'AvenirNextLTPro-Bold';}
 #contact .form-wrap textarea:focus #send {border-left:2px solid white;border-top:2px solid white;}
+#contact .backhome {font-family:'AvenirNextLTPro-Medium', sans-serif; transition: all .25s ease-out; -webkit-transition: all .25s ease-out; -moz-transition: all .25s ease-out;font-size: 1.077em;letter-spacing:1px;color: black;text-transform: uppercase;text-align: center; border:3px solid black;margin: 0;background: white;padding: 1em 2em;display: block; margin: 150px auto;text-decoration: none; width: 160px;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;}
+#contact .backhome:hover {background: black;color: white;transition: all .25s ease-out; -webkit-transition: all .25s ease-out; -moz-transition: all .25s ease-out;}
 
 ::-webkit-input-placeholder {font-family: 'AvenirNextLTPro-Medium', sans-serif; font-size: 1.077em;letter-spacing:1px;color: white;text-transform: uppercase;}
 :-moz-placeholder { font-family: 'AvenirNextLTPro-Medium', sans-serif; font-size: 1.077em;letter-spacing:1px;color: white;text-transform: uppercase;}
