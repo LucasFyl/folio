@@ -171,12 +171,10 @@ div#bar2 {-webkit-transform:rotate(180deg);-moz-transform:rotate(180deg)}
 #work-single .text-wrap p { font-family: 'AvenirNextLTPro-Regular', sans-serif; text-transform: uppercase; margin: .5em 0;}
 #work-single .text-wrap p:nth-child(3) {margin-top: 0;}
 #work-single a.back {position: absolute; width: 40px;height: 40px; top: -10px; right: -10px; font-size: 1.4em; color: white; background: black; text-decoration: none; text-align: center; line-height: 40px;}
-#work-single img { 
-    /*-webkit-filter: drop-shadow(-4px 3px 9px 0px rgba(50, 50, 50, 0.5)); filter: drop-shadow(-4px 3px 9px 0px rgba(50, 50, 50, 0.5));*/
-    position: absolute;top: 0;left: 0;bottom: 0;right: 0;margin: auto; z-index:5;transform-origin: center;-moz-transform-origin: center;-o-transform-origin: center; max-height: 100%;max-width: 100%;}
+#work-single img { position: absolute;top: 0;left: 0;right: 0; margin: 0 auto; z-index:5;transform-origin: center;-moz-transform-origin: center;-o-transform-origin: center; max-height: 100%;max-width: 100%;}
 #work-single img:hover {cursor: e-resize;}
 #work-single img.top {z-index:10;opacity: 1 !important;}
-#work-single .img-wrap {overflow: auto; ;max-width: 60%; max-height: 80%;position: absolute;top: 0;left: 0;bottom: 0;right: 0;margin: auto;}
+#work-single .img-wrap {overflow: auto; ;max-width: 65%; max-height: 70%;position: absolute;top: 125px;left: 0;bottom: 0;right: 0;margin: auto;}
 #work-single #prev, #work-single #next,
 #work-single #prev i, #work-single #next i {width: 30px;height: 30px; position: absolute; top: 50%; margin-top: -15px;}
 #work-single #prev i, #work-single #next i {font-size: 2.462em; color: black; text-decoration: none; text-align: center; line-height: 30px;}

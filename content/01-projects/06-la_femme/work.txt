@@ -4,7 +4,7 @@ Tag1: Conception,
 ---- 
 Tag2: Front-end Development.
 ----
-Role: Conception, front-end development.
+Role: Designer, developer.
 ---- 
 Cat: Professional project.
 ----

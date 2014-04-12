@@ -4,7 +4,7 @@ Tag1: UX design,
 ---- 
 Tag2: javascript/jQuery.
 ----
-Role: UX / Interaction design, jQuery.
+Role: UX designer, lead front-end developer.
 ---- 
 Cat: School project.
 ----

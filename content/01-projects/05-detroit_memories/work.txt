@@ -4,7 +4,7 @@ Tag1: UX / Interaction design,
 ---- 
 Tag2: Integration/jQuery.
 ----
-Role: UX / Interaction design, jQuery.
+Role: UX Designer, front-end developer.
 ---- 
 Cat: School project.
 ----

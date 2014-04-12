@@ -4,7 +4,7 @@ Tag1: UX / Interaction Design,
 ---- 
 Tag2: APIs / jQuery.
 ----
-Role: UX / Interaction design, APIs / jQuery.
+Role: UX designer, lead front-end developer.
 ----
 Cat: School project.
 ----
