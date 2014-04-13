@@ -300,9 +300,9 @@ function classImg() {
 }
 
 function filters() {
-	var cat = $('body').find('p.cat'),
-		catName = cat.text();
-	console.log(catName);
+	// var cat = $('body').find('p.cat'),
+	// 	catName = cat.text();
+	// console.log(catName);
 	// if( catName == 'UX / Interaction Design,APIs / jQuery.' ) {
 	// 	$(this).parent('li').remove();
 	// 	console.log('1');

@@ -36,8 +36,8 @@ var navigation = {
 		leaveWork.to('#dotstyle li:nth-child(2)', 0.25, {className:"-=current"})
 				 .to('#work', 0, {className:'-=view'})
 			     .staggerTo('#work ul li', 0.3, {opacity:0,transform:"translateY(50px)",ease:Power2.easeIn}, 0.1)
-		         .to('#sidebar.solid', 0.5, {left:"-100%",ease:Power3.easeInOut})
-		         .to('#sidebar', 0, {className:"-=solid"})
+		         .to('#sidebar', 0.25, {left:"-100%",ease:Power3.easeInOut})
+		         .to('#sidebar', 0, {className:"-=solid",width:80,delay:0.25})
 		         .to('#work', 0.5, {opacity:0, ease:Power3.easeIn})
 		         .to('#work', 0, {display:'none'});
 		leaveWork.play();
@@ -106,7 +106,7 @@ var navigation = {
 		showContact.to('#work, #about', 0, {display:"none"})
 				   .to('#contact', 0, {className:"+=view",display:'block'})
 				   .to('#contact', 0.25, {display:'block',opacity:1,ease:Power3.easeInOut,className:"-=hidden"})
-				   .to('#sidebar', 0, {left:0})
+				   .to('#sidebar', 0.25, {left:0,ease:Power2.easeOut})
 				   .to('#contact #read-more', 0.25, {opacity: 1,top:'100%',ease:Power2.easeOut})
 				   .staggerTo('#contact h2, #contact p', 0.5, {opacity:1,transform:"translateY(0)",ease:Power2.easeOut}, 0.1)
 				   .staggerFrom('#dotstyle li', 0.75, {scaleY:0.3,scaleX:0.3,opacity:0,ease:Power3.easeInOut}, 0.4, "-=0.5"); 
