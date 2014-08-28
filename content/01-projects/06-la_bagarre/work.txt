@@ -1,10 +1,10 @@
 Title: La Bagarre
 ----
-Tag1: UX design,
+Tag1: UI/UX design,
 ---- 
 Tag2: javascript/jQuery.
 ----
-Role: UX designer, lead front-end developer.
+Role: UI/UX designer, lead front-end developer.
 ---- 
 Cat: School project.
 ----

@@ -1,0 +1,28 @@
+Title: Mundial Memories
+----
+Tag1: Front-end Development,
+---- 
+Tag2: Interaction design.
+----
+Role: Front-end developer.
+----
+Cat: Professional project.
+----
+Year: 2014
+----
+About: To be written.   
+----
+Coworker1: Antoine Mourgues
+----
+Coworker2: Benoit Lafond
+----
+Coworker3: Florian Pygmalion
+----
+Coworker4: Franck Osei
+----
+Coworker5: Théo Pipaud
+----
+Coworker6: Thibaut Haenlin
+----
+link: http://www.lequipe.fr/Football/Coupe-du-monde/Mundial-Memories/
+----

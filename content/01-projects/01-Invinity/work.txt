@@ -1,0 +1,28 @@
+Title: Invinity
+----
+Tag1: Front-end Development,
+---- 
+Tag2: Dataviz.
+----
+Role: Front-end developer / Interaction design.
+----
+Cat: School project.
+----
+Year: 2014
+----
+About: To be written.   
+----
+Coworker1: Théo Pipaud
+----
+Coworker2: Benoit Lafond
+----
+Coworker3: Franck Osei
+----
+Coworker4: Robin Ait-El-Alim Noguier
+----
+Coworker5: Frantz Salobir
+----
+Coworker6: Thibaut Haenlin
+----
+link: http://www.invinity.fr
+----

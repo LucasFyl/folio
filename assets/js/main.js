@@ -33,12 +33,12 @@ $(document).ready(function(){
 	    mouseenter: function(){
 	    	var thisLi = $(this).parent('li'),
 	    		bg = $(thisLi).find('img.bg.col');
-	    	TweenLite.to(bg, 0.6, {opacity:1,ease:Power1.easeInOut});
+	    	TweenLite.to(bg, 1.5, {opacity:1,ease:Power1.easeInOut});
 	    },
 	    mouseleave: function(){
 	    	var thisLi = $(this).parent('li'),
 	    		bg = $(thisLi).find('img.bg.col');
-	    	TweenLite.to(bg, 0.6, {opacity:0,ease:Power1.easeInOut,delay:0.25});}
+	    	TweenLite.to(bg, 1.5, {opacity:0,ease:Power1.easeInOut,delay:0.25});}
 	});
 	// function pour open la sidebar 
 	$('#sidebar a.menu').on('click', openSidebar);

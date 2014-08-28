@@ -152,7 +152,7 @@ div#bar2 {-webkit-transform:rotate(180deg);-moz-transform:rotate(180deg)}
 #sidebar .filter-wrap select option {font-family: 'AvenirNextLTPro-Regular', sans-serif; font-size: 1em; line-height:1.231em; color: white;}
 
 #work {position: relative;overflow-x:scroll;background-color: black;float: right;}
-#work ul {width: 100%;height: 100%;margin: 0;padding: 0;position: absolute;top: 0;left: 0;width: 2100px;z-index: 7;margin-left: 80px;}
+#work ul {width: 100%;height: 100%;margin: 0;padding: 0;position: absolute;top: 0;left: 0;width: 2700px;z-index: 7;margin-left: 80px;}
 #work ul, li {list-style-type:none; display: block;}
 #work li {height: 100%; width: 300px;float: left;position: relative;overflow: hidden;}
 #work li img.bg {position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
@@ -211,7 +211,7 @@ div#bar2 {-webkit-transform:rotate(180deg);-moz-transform:rotate(180deg)}
 #contact .form-wrap input[name="email"], #contact .form-wrap input[name="telephone"] {width: 48%;display: inline-block;vertical-align: baseline;margin-top: 0;}
 #contact .form-wrap textarea {width: 100%;line-height: 1.5;height: 100px; background: transparent; border:none; border: 1px solid white; margin: 30px auto; padding-top: 15px; }
 #contact .form-wrap input:focus, #contact .form-wrap textarea:focus {border: 2px solid white;box-shadow: none;} 
-#contact .form-wrap #send {position: absolute;right: 0; bottom:114px; font-family:'AvenirNextLTPro-Medium', sans-serif; font-size: 1.077em;letter-spacing:1px;color: white;text-transform: uppercase;text-align: center; color: white;border:1px solid white;margin: 0;background: black;padding: 1em 2em;z-index: 999;display: block;cursor: pointer;}
+#contact .form-wrap #send {position: absolute;right: 0; bottom:144px; font-family:'AvenirNextLTPro-Medium', sans-serif; font-size: 1.077em;letter-spacing:1px;color: white;text-transform: uppercase;text-align: center; color: white;border:1px solid white;margin: 0;background: black;padding: 1em 2em;z-index: 999;display: block;cursor: pointer;}
 #contact .form-wrap #send:hover {background: white;color: black;font-family:'AvenirNextLTPro-Bold';}
 #contact .form-wrap textarea:focus #send {border-left:2px solid white;border-top:2px solid white;}
 #contact .backhome {font-family:'AvenirNextLTPro-Medium', sans-serif; transition: all .25s ease-out; -webkit-transition: all .25s ease-out; -moz-transition: all .25s ease-out;font-size: 1.077em;letter-spacing:1px;color: black;text-transform: uppercase;text-align: center; border:3px solid black;margin: 0;background: white;padding: 1em 2em;display: block; margin: 150px auto;text-decoration: none; width: 160px;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;}
