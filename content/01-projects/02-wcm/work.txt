@@ -1,16 +1,18 @@
 Title: Mundial Memories
 ----
-Tag1: Front-end Development,
+Tag1: Front-end Development (backbone),
 ---- 
 Tag2: Interaction design.
 ----
-Role: Front-end developer.
+Role: Front-end / Interactive developer.
 ----
 Cat: Professional project.
 ----
 Year: 2014
 ----
-About: To be written.   
+About: Mundial Memories is the successful result of a Hackaton organized by the french sports newspaper « L’Équipe ». Through this website we aimed to create a digital experience allowing one to relive every moment that made the world cup of soccer the significant event it is today. 
+A great part of the work was to sort data by converting every article made at our disposal by the newspaper into usable informations sorted in json files. Then, once we had defined and sorted what we wanted to use we had to come up with an efficient UX and UI to display the content. Finally much of the work was to make the experience accessible and enjoyable for the public with a fluid UX and unobtrusive yet rafined interactions. 
+This project was a real success with 2.6 millions of visitors in 2 days (12-13.07.14).
 ----
 Coworker1: Antoine Mourgues
 ----

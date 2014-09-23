@@ -41,7 +41,7 @@ $(document).ready(function(){
 	    	TweenLite.to(bg, 1.5, {opacity:0,ease:Power1.easeInOut,delay:0.25});}
 	});
 	// function pour open la sidebar 
-	$('#sidebar a.menu').on('click', openSidebar);
+	// $('#sidebar a.menu').on('click', openSidebar);
 	
 	// Gère les zindex pour les images de chaque project
     classImg();
@@ -269,14 +269,14 @@ function hideForm(e) {
 
 function readMore(e) {
 	e.preventDefault();
-	TweenLite.to('#work-single .img-wrap', 0.25, {opacity:0,ease:Power3.easeOut});
+	TweenLite.to('#work-single .img-wrap, .right-here', 0.25, {opacity:0,ease:Power3.easeOut});
 	TweenLite.to('#read-more a.read-more',0, {className:'+=active'});
 	TweenLite.to('#read-more', 0.25, {top:"48%",ease:Power3.easeOut});
 	TweenLite.to('#read-more a.read-more i', 0, {className:'-icon-chevron_up',className:'icon-chevron_down'});
 }
 function readLess(e) {
 	e.preventDefault();
-	TweenLite.to('#work-single .img-wrap', 0.25, {opacity:1,ease:Power3.easeOut});
+	TweenLite.to('#work-single .img-wrap, .right-here', 0.25, {opacity:1,ease:Power3.easeOut});
 	TweenLite.to('#read-more a.read-more',0, {className:'-=active'});
 	TweenLite.to('#read-more', 0.25, {top:"100%",ease:Power3.easeOut});
 	TweenLite.to('#read-more a.read-more i', 0, {className:'-icon-chevron_down',className:'icon-chevron_up'});

@@ -132,8 +132,10 @@
             
             <div class="contact-wrap">
                 <h2>get in touch</h2>
-                <p class="class">Please do not hesitate to contact me for anything. </br>I am currently available for free-lance work and looking for an internship abroad from July to October.</p>
+                <p class="class">Please do not hesitate to contact me for anything. </br>I am always available for free-lance work and currently living and working in Berlin.</p>
             </div>
+        
+            <div class="right-here"></div>
             
             <div id="read-more">
                 <a href="#" class="read-more"><i class="icon-chevron_up"></i> </a>

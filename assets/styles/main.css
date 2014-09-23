@@ -132,37 +132,36 @@ div#bar2 {-webkit-transform:rotate(180deg);-moz-transform:rotate(180deg)}
 #about p.fr {color: rgba(0,0,0,.6);font-style:italic;}
 
 #sidebar {position: absolute; top: 0;left: 0; height: 100%; width: 80px; z-index:15;}
-#sidebar a.menu {text-decoration: none; color: white; position: absolute;top: 30px;left: 50%;margin-left: -11px;font-size: 1.385em;} 
+#sidebar a.menu {display: none;}
 #dotstyle {width: 48px;height: 112px;position: absolute;top: 50%;margin-top: -56px;left: 50%;margin-left: -27px; z-index:15;}
 #dotstyle ul {;position: relative;display: inline-block;margin: 0;padding: 0;list-style: none;cursor: default;-webkit-touch-callout: none;-webkit-user-select: none;-khtml-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;}
 #dotstyle li {border-radius: 50%;box-shadow: 1 1 1 2px rgba(0,0,0,1);-webkit-transition: box-shadow 0.3s ease;transition: box-shadow 0.3s ease;
-              position: relative;display: block;margin: 16px;width: 16px;height: 16px;cursor: pointer;}
+                    position: relative;display: block;margin: 16px;width: 16px;height: 16px;cursor: pointer;}
 #dotstyle li a {background-color: #000;-webkit-transition: background-color 0.3s ease, -webkit-transform 0.3s ease;transition: background-color 0.3s ease, transform 0.3s ease;
-                top: 0;left: 0;width: 100%;height: 100%;outline: none;border-radius: 50%;text-indent: -999em; /* make the text accessible to screen readers */cursor: pointer;position: absolute;}
+                      top: 0;left: 0;width: 100%;height: 100%;outline: none;border-radius: 50%;text-indent: -999em; /* make the text accessible to screen readers */cursor: pointer;position: absolute;}
 #dotstyle li a:focus {outline: none;}
 #dotstyle li a:hover,.dotstyle-smalldotstroke li a:focus,.dotstyle-smalldotstroke li.current a {background-color: #000;}
 #dotstyle li.current a {-webkit-transform: scale(0.4);transform: scale(0.4);}
 #dotstyle li.current {box-shadow: 0 0 0 2px #000;}
-#sidebar.solid {background-color:#101010;-webkit-box-shadow: 7px 0px 15px 0px rgba(0, 0, 0, 0.5);-moz-box-shadow:7px 0px 15px 0px rgba(0, 0, 0, 0.5);box-shadow:7px 0px 15px 0px rgba(0, 0, 0, 0.5);}
+#sidebar.solid #dotstyle {background: black;left: 0;box-shadow: 7px 0px 15px 0px rgba(0, 0, 0, 0.5);margin-left: 0;}
 #sidebar.solid #dotstyle li {box-shadow: 1 1 1 white;}
 #sidebar.solid #dotstyle li.current {box-shadow: 0 0 0 2px rgba(255, 255, 255, 1);}
 #sidebar.solid #dotstyle li a {background-color: white;}
-#sidebar .filter-wrap select {opacity:0;display:none;outline: none;border: none;background: transparent;box-shadow: none;-webkit-appearance: none;padding: 1em 1.25em;color: white;font-size: 1em;border: 2px solid white;border-radius: 0;text-transform: uppercase;display: block;margin: 90px 0 0 30px; cursor: pointer;width: 240px;background: url(../images/chevron_down.png) no-repeat center right;}
-#sidebar .filter-wrap select#category {margin-top: 30px;}
-#sidebar .filter-wrap select option {font-family: 'AvenirNextLTPro-Regular', sans-serif; font-size: 1em; line-height:1.231em; color: white;}
+#sidebar .filter-wrap {display: none;}
 
 #work {position: relative;overflow-x:scroll;background-color: black;float: right;}
-#work ul {width: 100%;height: 100%;margin: 0;padding: 0;position: absolute;top: 0;left: 0;width: 2700px;z-index: 7;margin-left: 80px;}
+#work ul {width: 100%;height: 100%;margin: 0;padding: 0;position: absolute;top: 0;left: 0;width: 2800px;z-index: 7;}
 #work ul, li {list-style-type:none; display: block;}
-#work li {height: 100%; width: 300px;float: left;position: relative;overflow: hidden;}
+#work li {height: 100%; width: 280px;float: left;position: relative;overflow: hidden;}
 #work li img.bg {position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
 #work li img.bg.nb {z-index:5;}
 #work li img.bg.col {z-index:6; opacity: 0;}
 #work li a {width: 100%;height: 100%;display: inline-block; vertical-align: top;text-decoration: none; position: absolute; top: 0;left: 0;z-index: 7;}
-#infos {width: 300px; height: 200px;background-color: #101010; position: absolute; bottom:175px;}
-#infos h4 {font-family: 'AvenirNextLTPro-Medium',sans-serif; font-size: 1.231em; text-transform: uppercase; color:white;text-align: center; margin:0;margin-top: 40px;line-height: 1.231em;}
-#infos p.cat {font-family: 'AvenirNextLTPro-Regular',sans-serif; font-size: 1em; text-transform: uppercase; color:white;text-align: center;margin:0;line-height: 1.385em;}
-#infos .sep {width: 50px;height: 1px;display: block;background-color: white;margin: 25px auto;}
+#work li:last-child #infos {border-right: 3px solid back;}
+#infos {width: 280px; height: 200px;background-color: white; position: absolute; bottom:175px;border: 3px solid black;box-sizing: border-box;-moz-box-sizing: border-box;border-right: 0;}
+#infos h4 {font-family: 'AvenirNextLTPro-Medium',sans-serif; font-size: 1.231em; text-transform: uppercase; color:black;text-align: center; margin:0;margin-top: 40px;line-height: 1.231em;}
+#infos p.cat {font-family: 'AvenirNextLTPro-Regular',sans-serif; font-size: 1em; text-transform: uppercase; color:black;text-align: center;margin:0;line-height: 1.385em;}
+#infos .sep {width: 50px;height: 1px;display: block;background-color: black;margin: 25px auto;}
 
 #work-single {overflow:hidden; width: 100%; height: 100%; background: white; position: relative; border: solid 10px #000;}
 #loadBar.singleWork {top: 0; left: 0;background: black;}
@@ -173,7 +172,7 @@ div#bar2 {-webkit-transform:rotate(180deg);-moz-transform:rotate(180deg)}
 #work-single .text-wrap p:nth-child(3) {margin-top: 0;}
 #work-single a.back {position: absolute; width: 40px;height: 40px; top: -10px; right: -10px; font-size: 1.4em; color: white; background: black; text-decoration: none; text-align: center; line-height: 40px;}
 #work-single img { position: absolute;top: 0;left: 0;right: 0; margin: 0 auto; z-index:5;transform-origin: center;-moz-transform-origin: center;-o-transform-origin: center; max-height: 100%;max-width: 100%;}
-#work-single img:hover {cursor: e-resize;}
+#work-single .img-wrap img {cursor: url(../images/next_white.png) 2 2, e-resize;}
 #work-single img.top {z-index:10;opacity: 1 !important;}
 #work-single .img-wrap {overflow: auto; ;max-width: 65%; max-height: 70%;position: absolute;top: 125px;left: 0;bottom: 0;right: 0;margin: auto;}
 #work-single #prev, #work-single #next,
@@ -203,6 +202,7 @@ div#bar2 {-webkit-transform:rotate(180deg);-moz-transform:rotate(180deg)}
 #contact h2:before {top: -30px;}
 #contact h2:after {bottom: -23px;}
 #contact p {margin-top: 60px; width: auto;}
+#contact .right-here {position: absolute; bottom: 40px; width: 122px; height: 131px; left: 54%;background:url(../images/right-here.png) no-repeat;background-size:100%;}
 #contact .form-wrap {width: 90%;display: block;margin: 20px auto 0;position: relative;}
 #contact .form-wrap label {display: none; }
 #contact .form-wrap input,#contact .form-wrap textarea {box-sizing:border-box; -moz-box-sizing: border-box;outline:none; -webkit-transition: all .25s easeOut;-moz-transition: all .25s easeOut;-ms-transition: all .25s easeOut;-o-transition: all .25s easeOut;transition: all .25s easeOut;font-family: 'AvenirNextLTPro-Medium', sans-serif; color: white; padding-left: 1.5em; }

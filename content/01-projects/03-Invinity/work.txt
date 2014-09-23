@@ -1,0 +1,29 @@
+Title: Invinity
+----
+Tag1: Front-end Development,
+---- 
+Tag2: Dataviz.
+----
+Role: Front-end developer / Interaction design.
+----
+Cat: School project.
+----
+Year: 2014
+----
+About: Invinity started as a school project. We were asked to conceive and develop a website based on a data-visualization. We decided to communicate around the not-so-known domain of wine. Our approach was simple: We wanted to show the evolution of wine consumption and market through the years. We’ve collected datas from 1995 to 2012 then organized them via a world map. By selecting a country you ca access a brief summary of the status of wine in these countries as well as graphics with actual data that you can browse through the years. 
+We presented the project to an audience of roughly 20 peoples but noticed recently that we now have around 400 page views.  
+----
+Coworker1: Théo Pipaud
+----
+Coworker2: Benoit Lafond
+----
+Coworker3: Franck Osei
+----
+Coworker4: Robin Ait-El-Alim Noguier
+----
+Coworker5: Frantz Salobir
+----
+Coworker6: Thibaut Haenlin
+----
+link: http://www.invinity.fr
+----

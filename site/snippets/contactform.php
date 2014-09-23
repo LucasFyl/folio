@@ -38,7 +38,7 @@ $form = new contactform(array(
         <input class="contactform-input half" type="text" placeholder="phone number" id="contactform-email" name="telephone" value="" />
   
         <label class="contactform-label" for="contactform-text">Message <?php if($form->isRequired('text')) echo '' ?> <?php if($form->isError('text')): ?><small>Please enter your text</small><?php endif ?></label>
-        <textarea class="contactform-input" name="text" id="contactform-text" ><?php echo $form->htmlValue('text') ?></textarea>
+        <textarea class="contactform-input" name="text" id="contactform-text" placeholder="Hey Lucas,"><?php echo $form->htmlValue('text') ?></textarea>
         
         <input class="contactform-button" type="submit" name="submit" value="Send" id="send"/>
         <p>If you prefer, you can <a href="mailto:lucas.fayolle@orange.fr?subject=We have an internship for you!" style="color:#fff;">email me</a>.</p>

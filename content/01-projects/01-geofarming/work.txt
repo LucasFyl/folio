@@ -1,0 +1,27 @@
+Title: Geofarming
+----
+Tag1: Conception, UX,
+---- 
+Tag2: Front-end development (AngularJS).
+----
+Role: Lead developer.
+----
+Cat: Professional project.
+----
+Year: 2014
+----
+About: Geofarming is an educational project made to educate french residents about their local agricultural heritage and to help them discover the country side around them through « geocaching » tours. This projects follows the approach developed by the association « Assiette Verte » since 2009. 
+My team and I were in charge of developing the concept of the geocaching tours and to make it viable. After weeks of conception we had to define an effective user experience and then started to develop the website. The back office is programmed with nodeJS with Sails and the front-office is built with AngularJS. 
+----
+Coworker1: Pierre Burgy
+----
+Coworker2: Coline Cherbobo 
+----
+Coworker3: Augustin Menou
+----
+Coworker4: Thibaut Haenlin
+----
+Coworker5: Améziane Amazigh
+----
+link: http://www.pierreburgy.com/
+----
