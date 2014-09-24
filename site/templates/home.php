@@ -47,6 +47,7 @@
         </div>
         
         <div id="animation-wrap" class="view">
+            <div class="spinner"></div>
             <div id="loadBar"></div>
 
         	<div class="bar bar1" id="bar1"></div>
@@ -159,8 +160,6 @@
         <?php echo js('assets/js/main.js') ?>
 
         <script>
-
-
             //set opaciy to hide on home + intro
             TweenLite.set('#sidebar', {opacity:0});
         </script>

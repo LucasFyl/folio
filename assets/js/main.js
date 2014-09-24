@@ -5,7 +5,9 @@ $(document).ready(function(){
 	$(window).on('resize', contentSize);
 
 	// Trigger home animation + landing page
-	sayHello();
+	TweenLite.to('.spinner', 0.25, {opacity:0,delay:0.7,ease:Power2.easeOut,onComplete:function(){
+		sayHello();
+	}});
 	// set sidebar inputs hidden at first
 	TweenLite.set('#sidebar .filter-wrap select', {width:'0px'});
 
