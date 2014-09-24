@@ -5,7 +5,7 @@ $(document).ready(function(){
 	$(window).on('resize', contentSize);
 
 	// Trigger home animation + landing page
-	TweenLite.to('.spinner', 0.25, {opacity:0,delay:0.7,ease:Power2.easeOut,onComplete:function(){
+	TweenLite.to('.spinner', 0.25, {opacity:0,delay:0.4,ease:Power2.easeOut,onComplete:function(){
 		sayHello();
 	}});
 	// set sidebar inputs hidden at first
